@@ -1,0 +1,90 @@
+CATTLE BREED CLASSIFICATION - ADVANCED STATISTICS REPORT
+================================================================================
+
+Generated on: 2025-09-22 09:32:47
+Model Architecture: EfficientNet-B2 + Custom Classifier
+Number of Classes: 11
+Classes: banni, bargur, bhadawari, gir, jaffarabadi, mehsana, murrah, nagpuri, niliravi, ongole, toda
+
+OVERALL PERFORMANCE SUMMARY
+--------------------------------------------------
+Accuracy:                    0.8361 (83.61%)
+Balanced Accuracy:           0.8590 (85.90%)
+
+PRECISION, RECALL, F1 SCORE SUMMARY
+--------------------------------------------------
+Macro Average (unweighted across classes):
+  Precision: 0.8459 (84.59%)
+  Recall:    0.8590 (85.90%)
+  F1 Score:  0.8504 (85.04%)
+
+Micro Average (global across all samples):
+  Precision: 0.8361 (83.61%)
+  Recall:    0.8361 (83.61%)
+  F1 Score:  0.8361 (83.61%)
+
+Weighted Average (weighted by class frequency):
+  Precision: 0.8404 (84.04%)
+  Recall:    0.8361 (83.61%)
+  F1 Score:  0.8359 (83.59%)
+
+PER-CLASS DETAILED ANALYSIS
+--------------------------------------------------
+Class        Precision  Recall     F1-Score   Support   
+--------------------------------------------------
+banni        0.6818     0.7500     0.7143     20        
+bargur       1.0000     1.0000     1.0000     15        
+bhadawari    0.8000     0.8889     0.8421     18        
+gir          0.9000     1.0000     0.9474     9         
+jaffarabadi  0.8261     0.9500     0.8837     20        
+mehsana      0.8889     0.8000     0.8421     20        
+murrah       0.7353     0.8333     0.7812     30        
+nagpuri      0.8333     0.7143     0.7692     42        
+niliravi     0.7826     0.7200     0.7500     25        
+ongole       1.0000     0.9355     0.9667     31        
+toda         0.8571     0.8571     0.8571     14        
+
+PERFORMANCE ANALYSIS
+--------------------------------------------------
+Best Performing Class:  bargur (F1: 1.0000)
+Worst Performing Class: banni (F1: 0.7143)
+
+Class Distribution Analysis:
+  Most samples:  42 samples
+  Least samples: 9 samples
+  Imbalance ratio: 4.67x
+
+MODEL PERFORMANCE ASSESSMENT
+--------------------------------------------------
+Overall Performance Level: Excellent
+Macro F1 Score: 0.8504
+
+TECHNICAL EVALUATION DETAILS
+--------------------------------------------------
+Evaluation Method: Stratified random test split (20% of dataset)
+Metrics Computed: Sklearn precision_score, recall_score, f1_score
+Zero Division Handling: Set to 0 for undefined metrics
+Multi-class Strategy: One-vs-Rest for binary classification metrics
+
+DETAILED CLASSIFICATION REPORT
+--------------------------------------------------
+Class        Precision  Recall     F1-Score   Support   
+----------------------------------------------------
+banni        0.6818     0.7500     0.7143     20        
+bargur       1.0000     1.0000     1.0000     15        
+bhadawari    0.8000     0.8889     0.8421     18        
+gir          0.9000     1.0000     0.9474     9         
+jaffarabadi  0.8261     0.9500     0.8837     20        
+mehsana      0.8889     0.8000     0.8421     20        
+murrah       0.7353     0.8333     0.7812     30        
+nagpuri      0.8333     0.7143     0.7692     42        
+niliravi     0.7826     0.7200     0.7500     25        
+ongole       1.0000     0.9355     0.9667     31        
+toda         0.8571     0.8571     0.8571     14        
+
+accuracy                           0.8361     244       
+macro avg    0.8459     0.8590     0.8504     244       
+weighted avg 0.8404     0.8361     0.8359     244       
+
+================================================================================
+End of Advanced Statistics Report

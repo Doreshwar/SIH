@@ -1,0 +1,11 @@
+Image Path,True Label,Top-1 Prediction,Top-1 Confidence,Top-3 Predictions,Top-3 Confidences
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_1100_NAGPURI_01007\Nagpuri_175.jpg,nagpuri,murrah,0.3075,"murrah, banni, nagpuri","0.3075, 0.205, 0.1969"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_0500_MURRAH_01001\Murrah_139.jpg,murrah,murrah,0.5673,"murrah, banni, mehsana","0.5673, 0.2802, 0.0754"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_0400_JAFFARABADI_01006\Jaffrabadi_98.jpeg,jaffarabadi,jaffarabadi,0.9879,"jaffarabadi, gir, nagpuri","0.9879, 0.0028, 0.0022"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\CATTLE\INDIA_CATTLE_0400_GIR_03007\Gir_110.jpg,gir,gir,0.9986,"gir, nagpuri, ongole","0.9986, 0.0002, 0.0002"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_1100_NAGPURI_01007\Nagpuri_120.jpg,nagpuri,murrah,0.3837,"murrah, banni, nagpuri","0.3837, 0.2485, 0.103"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_1100_NAGPURI_01007\Nagpuri_184.png,nagpuri,nagpuri,0.8371,"nagpuri, niliravi, mehsana","0.8371, 0.0444, 0.0266"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\CATTLE\INDIA_CATTLE_0100_ONGOLE_03020\Ongole_19.jpg,ongole,ongole,0.5408,"ongole, nagpuri, gir","0.5408, 0.1465, 0.1369"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_0400_JAFFARABADI_01006\Jaffrabadi_29.png,jaffarabadi,jaffarabadi,0.9835,"jaffarabadi, gir, bargur","0.9835, 0.0036, 0.0036"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_1600_NILIRAVI_01002\Nili_Ravi_83.jpg,niliravi,niliravi,0.9982,"niliravi, banni, nagpuri","0.9982, 0.0005, 0.0004"
+g:\Project trim\cattle_breed_project\scripts\..\data\cleaned\BUFFALO\INDIA_BUFFALO_0400_JAFFARABADI_01006\Jaffrabadi_9.jpg,jaffarabadi,jaffarabadi,0.9884,"jaffarabadi, gir, bargur","0.9884, 0.0028, 0.0021"
